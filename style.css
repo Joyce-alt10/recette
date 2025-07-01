@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+} 
+nav a{
+  text-decoration: none;
+  color: #333;
+  padding: 5px 30px;
+  background-color: #ffebcd;
+  
+} 
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.welcome-message {
+  text-align: center;
+  background-color: #ffebcd;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+.welcome-message ul{
+    list-style: none;
+    text-align: left
+}
+.categories {
+  margin-top: 20px;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.category-buttons a {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.category-buttons a:hover {
+  background-color: #f0f0f0;
+}
+
+.presentation {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2px;
+  align-items: center;
+}
+.plant  {
+    width: 350px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.3);
+    padding: 20px;
+    margin: 20px;
+}
+.plant .images{
+    font-size: 25px;
+    height: 300px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.plant h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.plant ul{
+    list-style: none;
+    text-align: left;
+}
+.plant ul{
+border: 1px solid #636363;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
